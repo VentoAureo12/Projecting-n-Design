@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2023-10-19T10:48:27.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="FJ0kkDp0RhsaIekHq9w1" version="22.0.4" type="device">
+  <diagram id="l7JdewE_dLOG6l5-0Vy7" name="Страница — 1">
+    <mxGraphModel dx="1284" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-2" target="Oq0O9l1t6l_6nkdDXVSP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#030303;" parent="1" vertex="1">
+          <mxGeometry x="385" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-3" target="Oq0O9l1t6l_6nkdDXVSP-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-3" target="Oq0O9l1t6l_6nkdDXVSP-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-3" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-4" value="Запись об окончании тренировки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-5" target="Oq0O9l1t6l_6nkdDXVSP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-5" value="Спортсмен окончил тренировку досрочно&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-6" target="Oq0O9l1t6l_6nkdDXVSP-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-6" target="Oq0O9l1t6l_6nkdDXVSP-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-6" value="Спортсмен начал тренировку&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-7" value="Cписок команд: Список команд" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-8" target="Oq0O9l1t6l_6nkdDXVSP-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-8" value="Список выданного инвентаря: список выданного инвентаря" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-14" target="Oq0O9l1t6l_6nkdDXVSP-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-14" value="Регистрация спортсмена в электронной системе" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="140" y="240" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-16" target="Oq0O9l1t6l_6nkdDXVSP-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-16" target="Oq0O9l1t6l_6nkdDXVSP-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-16" value="Отслеживание результатов тренировки спортсмена" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-20" value="Таблица лидеров тренировки: таблица лидеров тренировки" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530.0000000000002" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-22" target="Oq0O9l1t6l_6nkdDXVSP-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="382" />
+              <mxPoint x="555" y="410" />
+              <mxPoint x="660" y="410" />
+              <mxPoint x="660" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-22" value="Занесение результатов спортсмена в общую таблицу результатов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="350" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-29" target="Oq0O9l1t6l_6nkdDXVSP-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-29" target="Oq0O9l1t6l_6nkdDXVSP-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="540" />
+              <mxPoint x="355" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-29" value="Формирование отчёта о окончании тренировки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="300" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-2" value="Activity Inittial" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-36" value="Досрочное окончание тренировки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-37" value="Начало тренировки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-40" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="510" y="499.44" as="sourcePoint" />
+            <mxPoint x="610" y="499.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-43" target="Oq0O9l1t6l_6nkdDXVSP-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="190" />
+              <mxPoint x="340" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-43" target="Oq0O9l1t6l_6nkdDXVSP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-43" target="Oq0O9l1t6l_6nkdDXVSP-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-43" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-44" value="Таблица лучших спортсменов месяца: Таблица лучших" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-46" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="550" as="sourcePoint" />
+            <mxPoint x="510" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-50" value="Сформированный отчёт об окончании тренировки: Отчёт о тренировке" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-52" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="340" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-55" value="Должно содержать команду спортсмены, выданный тип тагера" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="670" y="70" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-56" value="Должно содержатьдату и время окончания тренировки, причину окончания(если есть)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="670" y="190" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-4" target="Oq0O9l1t6l_6nkdDXVSP-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-14" target="Oq0O9l1t6l_6nkdDXVSP-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-61" value="Должно содержать количество устранений, поражений, захвата точек, количество попаданий" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="670" y="330" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-22" target="Oq0O9l1t6l_6nkdDXVSP-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EAVDjA2g_pIoCQw2Lq_h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-20" target="Oq0O9l1t6l_6nkdDXVSP-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

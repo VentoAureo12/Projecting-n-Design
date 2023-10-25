@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" modified="2023-10-24T05:05:17.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="gq1M8tL8h2r70-ppMnY3" version="22.0.6" type="device">
+  <diagram name="Страница — 1" id="902VAYLKyp4MIn6vzxDZ">
+    <mxGraphModel dx="832" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8NchNWnG4F7tHPcpfzxo-1" target="8NchNWnG4F7tHPcpfzxo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-1" value="Человек" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-4" value="Проход через турникет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-9" value="extend" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=open;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="8NchNWnG4F7tHPcpfzxo-5" target="8NchNWnG4F7tHPcpfzxo-7">
+          <mxGeometry x="-0.0161" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-5" value="Проверка пропуска" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-6" value="Разрешение доступа" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-7" value="Отказ в доступе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-8" value="include" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="8NchNWnG4F7tHPcpfzxo-4" target="8NchNWnG4F7tHPcpfzxo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8NchNWnG4F7tHPcpfzxo-10" value="extend" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.942;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;startArrow=open;startFill=0;" edge="1" parent="1" source="8NchNWnG4F7tHPcpfzxo-5" target="8NchNWnG4F7tHPcpfzxo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

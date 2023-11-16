@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T10:55:48.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.3.931 Yowser/2.5 Safari/537.36" etag="gU5QD7lTQQYb-dq_dKSR" version="22.0.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-11-09T10:24:11.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.837 YaBrowser/23.9.4.837 Yowser/2.5 Safari/537.36" etag="WGQfysSkBtzALZ2sCaoc" version="22.1.0" type="device">
   <diagram name="Страница — 1" id="DHIbU68CLfU-CIXhcM6R">
-    <mxGraphModel dx="2145" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2016" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,7 +443,7 @@
           <mxGeometry x="15" y="296.6759770114942" width="180" height="30.689655172413794" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-174" value="" style="group;fontSize=14;fontStyle=1" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="580" width="310" height="445" as="geometry" />
+          <mxGeometry x="20" y="570" width="310" height="445" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-175" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
           <mxGeometry x="10" y="5.114942528735632" width="300" height="424.54022988505744" as="geometry" />
@@ -536,7 +536,7 @@
           <mxGeometry x="187.5" y="27.109195402298848" width="15" height="23.528735632183906" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-203" value="Результат тренировки спортсмена" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
-          <mxGeometry x="30" y="144.75" width="210" height="30.69" as="geometry" />
+          <mxGeometry x="30" y="138.75" width="210" height="30.69" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-204" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
           <mxGeometry x="30" y="171.86206896551724" width="210" height="61.37931034482759" as="geometry" />
@@ -593,7 +593,7 @@
           <mxGeometry x="20" y="383.6206896551724" width="140" height="30.689655172413794" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-222" value="Фамилия спортсмена" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
-          <mxGeometry x="-10" y="358.04597701149424" width="180" height="30.689655172413794" as="geometry" />
+          <mxGeometry y="358.04597701149424" width="180" height="30.689655172413794" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-223" value="Отправить&amp;nbsp; данные" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9E9E9E;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
           <mxGeometry x="192.5" y="378.5032183908046" width="90" height="35.804597701149426" as="geometry" />
@@ -602,7 +602,7 @@
           <mxGeometry x="20" y="327.36068965517234" width="140" height="30.689655172413794" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-225" value="Дата и время окончанной тренировки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-174" vertex="1">
-          <mxGeometry y="296.6759770114942" width="180" height="30.689655172413794" as="geometry" />
+          <mxGeometry x="10" y="296.6759770114942" width="180" height="30.689655172413794" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-292" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="385" y="690" width="300" height="415" as="geometry" />

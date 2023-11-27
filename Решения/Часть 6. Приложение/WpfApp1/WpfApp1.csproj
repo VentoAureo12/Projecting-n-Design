@@ -55,6 +55,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ChangingParamsForm.xaml.cs">
+      <DependentUpon>ChangingParamsForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EndOfTrainingForm.xaml.cs">
+      <DependentUpon>EndOfTrainingForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationSportsmenForm.xaml.cs">
+      <DependentUpon>RegistrationSportsmenForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReportForm.xaml.cs">
+      <DependentUpon>ReportForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResultsToTableForm.xaml.cs">
+      <DependentUpon>ResultsToTableForm.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ChangingParamsForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EndOfTrainingForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +90,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RegistrationSportsmenForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResultsToTableForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

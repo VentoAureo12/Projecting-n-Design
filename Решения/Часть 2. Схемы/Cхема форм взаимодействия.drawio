@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:37:04.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.837 YaBrowser/23.9.4.837 Yowser/2.5 Safari/537.36" etag="VTptoLh7ixBPDU6O9hRJ" version="22.1.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-11-27T03:26:46.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.686 YaBrowser/23.9.5.686 Yowser/2.5 Safari/537.36" etag="uI-7mRTQuDq-0-khawYe" version="22.1.4" type="device">
   <diagram name="Страница — 1" id="DHIbU68CLfU-CIXhcM6R">
-    <mxGraphModel dx="1659" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2214" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,8 @@
         <mxCell id="7fl4AE7SdrocrUqODQa8-12" value="Перейти на форму отчёта" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-20" vertex="1">
           <mxGeometry x="180" y="140" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="7fl4AE7SdrocrUqODQa8-13" value="Перейти на форму" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-20" vertex="1">
-          <mxGeometry x="180" y="235" width="150" height="20" as="geometry" />
+        <mxCell id="7fl4AE7SdrocrUqODQa8-13" value="Перейти на форму изменения параметров" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-20" vertex="1">
+          <mxGeometry x="180" y="235" width="170" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7fl4AE7SdrocrUqODQa8-14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px;&quot;&gt;Главная форма&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="7fl4AE7SdrocrUqODQa8-20" vertex="1">
           <mxGeometry width="140" height="30" as="geometry" />

@@ -35,8 +35,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +64,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ClubModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClubModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClubModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClubModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClubModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Cпортсмен.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cпортсмен_Тренировка.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Windows\ChangeResultsDataWindow.xaml.cs">
       <DependentUpon>ChangeResultsDataWindow.xaml</DependentUpon>
     </Compile>
@@ -81,6 +114,27 @@
     </Compile>
     <Compile Include="Windows\ResultsToTableForm.xaml.cs">
       <DependentUpon>ResultsToTableForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Команда.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Окончанная_тренировка.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Отчёт_о_тренировке.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Результат_тренировки.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Таблица_результатов.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Тагер.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Тренировка.cs">
+      <DependentUpon>ClubModel.tt</DependentUpon>
     </Compile>
     <Page Include="Windows\ChangeResultsDataWindow.xaml">
       <SubType>Designer</SubType>
@@ -149,6 +203,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="ClubModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ClubModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ClubModel.edmx.diagram">
+      <DependentUpon>ClubModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -156,6 +218,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClubModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ClubModel.Context.cs</LastGenOutput>
+      <DependentUpon>ClubModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="ClubModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ClubModel.edmx</DependentUpon>
+      <LastGenOutput>ClubModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

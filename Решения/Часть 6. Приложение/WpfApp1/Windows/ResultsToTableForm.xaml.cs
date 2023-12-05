@@ -19,9 +19,13 @@ namespace WpfApp1
     /// </summary>
     public partial class ResultsToTableForm : Window
     {
+        private GarnizonEntities dbContext;
         public ResultsToTableForm()
         {
             InitializeComponent();
+            dbContext = GarnizonEntities.GetContext();
+            SportsmenDataGrid.ItemsSource = dbContext.Cпортсмен.ToList();
+            
         }
 
         private void SendDataButton_Click(object sender, RoutedEventArgs e)

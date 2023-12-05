@@ -38,5 +38,10 @@ namespace WpfApp1.Windows
         {
             // Логика добавления нового тагера
         }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

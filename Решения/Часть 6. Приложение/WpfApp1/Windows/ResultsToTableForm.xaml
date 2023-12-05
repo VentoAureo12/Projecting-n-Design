@@ -8,9 +8,9 @@
         Title="Перенос результатов в общую таблицу" Height="450" Width="800" MaxHeight="450" MaxWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="20*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
 
-        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0" Grid.Column="0">
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0" Grid.Column="0" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
@@ -28,7 +28,7 @@
                 <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
-        <DataGrid x:Name="ResultsDataGrid" Grid.Row="1" Grid.Column="0">
+        <DataGrid x:Name="ResultsDataGrid" Grid.Row="1" Grid.Column="0" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код результата" Binding="{Binding Код_результата_тренировки}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}" IsReadOnly="True"/>

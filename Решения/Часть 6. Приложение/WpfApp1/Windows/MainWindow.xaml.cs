@@ -31,5 +31,33 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        private void RegistrationOnTrainingButton_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrationSportsmenForm window = new RegistrationSportsmenForm();
+            window.Show();
+            this.Close();
+        }
+
+        private void EndingOfTrainingButton_Click(object sender, RoutedEventArgs e)
+        {
+            EndOfTrainingForm window = new EndOfTrainingForm();
+            window.Show();
+            this.Close();
+        }
+
+        private void ReportFormingButton_Click(object sender, RoutedEventArgs e)
+        {
+            ReportForm window = new ReportForm();
+            window.Show();
+            this.Close();
+        }
+
+        private void ResultSendButton_Click(object sender, RoutedEventArgs e)
+        {
+            ResultsToTableForm window = new ResultsToTableForm();
+            window.Show();
+            this.Close();
+        }
     }
 }

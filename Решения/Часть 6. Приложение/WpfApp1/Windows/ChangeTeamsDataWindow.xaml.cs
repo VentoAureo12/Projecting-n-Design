@@ -38,5 +38,10 @@ namespace WpfApp1.Windows
         {
             //
         }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

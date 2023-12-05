@@ -17,8 +17,12 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0"></DataGrid>
-        <DataGrid x:Name="TrainingDataGrid" Grid.Row="1"></DataGrid>
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0">
+            
+        </DataGrid>
+        <DataGrid x:Name="TrainingDataGrid" Grid.Row="1">
+            
+        </DataGrid>
 
         <TextBlock Grid.Row="0" Grid.Column="2" FontSize="25" Width="200" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center">ID тренировки</TextBlock>
         <TextBox Grid.Row="0" Grid.Column="2" Width="200" Height="50" x:Name="TrainingIDTextBox" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>

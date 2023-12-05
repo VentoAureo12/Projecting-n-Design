@@ -19,13 +19,13 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Регистрация спортсмена на тренировку</TextBlock>
-        <Button Grid.Column="1" Grid.Row="0" Width="250" Height="50" FontSize="15">Перейти на форму регистрации</Button>
+        <Button x:Name="RegistrationOnTrainingButton" Grid.Column="1" Grid.Row="0" Width="250" Height="50" FontSize="15" Click="RegistrationOnTrainingButton_Click">Перейти на форму регистрации</Button>
         <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Запись об окончании тренировки</TextBlock>
-        <Button Grid.Column="1" Grid.Row="1" Width="250" Height="50" FontSize="15">Перейти на форму записи</Button>
+        <Button x:Name="EndingOfTrainingButton" Click="EndingOfTrainingButton_Click" Grid.Column="1" Grid.Row="1" Width="250" Height="50" FontSize="15">Перейти на форму записи</Button>
         <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Формирование отчета</TextBlock>
-        <Button Grid.Column="1" Grid.Row="2" Width="250" Height="50" FontSize="15">Перейти на форму отчета</Button>
+        <Button x:Name="ReportFormingButton" Click="ReportFormingButton_Click" Grid.Column="1" Grid.Row="2" Width="250" Height="50" FontSize="15">Перейти на форму отчета</Button>
         <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Занесение результатов в общую таблицу</TextBlock>
-        <Button Grid.Column="1" Grid.Row="3" Width="250" Height="50" FontSize="15">
+        <Button x:Name="ResultSendButton" Click="ResultSendButton_Click" Grid.Column="1" Grid.Row="3" Width="250" Height="50" FontSize="15">
             <TextBlock TextWrapping="Wrap">
                 Перейти на форму занесения результатов
             </TextBlock>

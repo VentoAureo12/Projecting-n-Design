@@ -8,23 +8,23 @@
         Title="Формирование отчета" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="35*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0">
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0" HorizontalScrollBarVisibility="Visible">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код результата" Binding="{Binding Код_результата_тренировки}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Количество захваченных точек" Binding="{Binding Количество_захваченных_точек}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Количество устранений" Binding="{Binding Количество_устранений}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Перенесено" Binding="{Binding Перенесено}" IsReadOnly="True"/>
+                <DataGridTextColumn Width="99" Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
         <DataGrid x:Name="TrainingDataGrid" Grid.Row="1">
@@ -36,7 +36,7 @@
         </DataGrid>
 
         <TextBlock Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">ID спортсмена</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
 
         <Grid Grid.Row="1" Grid.Column="2">
             <Grid.RowDefinitions>

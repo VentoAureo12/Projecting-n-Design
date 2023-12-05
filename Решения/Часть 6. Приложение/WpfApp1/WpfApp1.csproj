@@ -55,30 +55,58 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ChangingParamsForm.xaml.cs">
+    <Compile Include="Windows\ChangeResultsDataWindow.xaml.cs">
+      <DependentUpon>ChangeResultsDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangeSportsmenDataWindow.xaml.cs">
+      <DependentUpon>ChangeSportsmenDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangeTagersDataWindow.xaml.cs">
+      <DependentUpon>ChangeTagersDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangeTeamsDataWindow.xaml.cs">
+      <DependentUpon>ChangeTeamsDataWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangingParamsForm.xaml.cs">
       <DependentUpon>ChangingParamsForm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EndOfTrainingForm.xaml.cs">
+    <Compile Include="Windows\EndOfTrainingForm.xaml.cs">
       <DependentUpon>EndOfTrainingForm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RegistrationSportsmenForm.xaml.cs">
+    <Compile Include="Windows\RegistrationSportsmenForm.xaml.cs">
       <DependentUpon>RegistrationSportsmenForm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ReportForm.xaml.cs">
+    <Compile Include="Windows\ReportForm.xaml.cs">
       <DependentUpon>ReportForm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ResultsToTableForm.xaml.cs">
+    <Compile Include="Windows\ResultsToTableForm.xaml.cs">
       <DependentUpon>ResultsToTableForm.xaml</DependentUpon>
     </Compile>
-    <Page Include="ChangingParamsForm.xaml">
+    <Page Include="Windows\ChangeResultsDataWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EndOfTrainingForm.xaml">
+    <Page Include="Windows\ChangeSportsmenDataWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Windows\ChangeTagersDataWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ChangeTeamsDataWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ChangingParamsForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EndOfTrainingForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -86,19 +114,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="RegistrationSportsmenForm.xaml">
+    <Page Include="Windows\RegistrationSportsmenForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ReportForm.xaml">
+    <Page Include="Windows\ReportForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ResultsToTableForm.xaml">
+    <Page Include="Windows\ResultsToTableForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

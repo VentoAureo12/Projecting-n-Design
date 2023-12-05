@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T03:19:30.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="SDPhk8c_uPFJUMO1bTG5" version="22.0.6" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-05T06:13:04.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2470 YaBrowser/23.11.0.2470 Yowser/2.5 Safari/537.36" etag="Fi0JRGuV4vBv-mhmE7g8" version="22.1.5" type="device">
   <diagram name="Страница — 1" id="sQ5QRMQraN9dKrUVdKXX">
-    <mxGraphModel dx="832" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-5" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-5" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-7" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;Регистрация спортсмена &lt;br&gt;в электронной системе учёта&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="q-f4MAi4GW2ZZLyZNm_S-5">
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-7" value="&lt;b style=&quot;font-size: 17px;&quot;&gt;Регистрация спортсмена &lt;br&gt;в электронной системе учёта&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-f4MAi4GW2ZZLyZNm_S-5" vertex="1">
           <mxGeometry x="27.5" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-9" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="169" y="240" width="310" height="120" as="geometry" />
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-9" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="230" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-10" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Запись об окончании тренировки&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="q-f4MAi4GW2ZZLyZNm_S-9">
-          <mxGeometry x="27.5" y="15" width="300" height="30" as="geometry" />
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-10" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Запись об окончании тренировки&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-f4MAi4GW2ZZLyZNm_S-9" vertex="1">
+          <mxGeometry x="15" y="30" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-11" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="370" width="325" height="120" as="geometry" />
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-11" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="370" width="325" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-12" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Занесение результатов спортсмена &lt;br&gt;в общую таблицу результатов&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="q-f4MAi4GW2ZZLyZNm_S-11">
+        <mxCell id="q-f4MAi4GW2ZZLyZNm_S-12" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Занесение результатов спортсмена &lt;br&gt;в общую таблицу результатов&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-f4MAi4GW2ZZLyZNm_S-11" vertex="1">
           <mxGeometry x="15" y="20" width="320" height="50" as="geometry" />
         </mxCell>
       </root>

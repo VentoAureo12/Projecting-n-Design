@@ -35,16 +35,16 @@
         </DataGrid>
         <DataGrid x:Name="TagerData" VerticalScrollBarVisibility="Auto" Grid.Row="2" Grid.Column="0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Номер тагера" Binding="{Binding Код_команды}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Наименование" Binding="{Binding Фамилия}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Тип тагера" Binding="{Binding Фамилия}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Номер тагера" Binding="{Binding Код_тагера}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Тип тагера" Binding="{Binding Тип_тагера}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
         <DataGrid x:Name="TrainingData" VerticalScrollBarVisibility="Auto" Grid.Row="3" Grid.Column="0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_команды}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Дата тренировки" Binding="{Binding Фамилия}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Время тренировки" Binding="{Binding Фамилия}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата тренировки" Binding="{Binding Дата_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Время тренировки" Binding="{Binding Время_тренировки}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="0" Grid.Column="1">

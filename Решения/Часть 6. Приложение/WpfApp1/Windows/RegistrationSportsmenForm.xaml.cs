@@ -15,13 +15,17 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для ChangingParamsForm.xaml
+    /// Логика взаимодействия для RegistrationSportsmenForm.xaml
     /// </summary>
-    public partial class ChangingParamsForm : Window
+    public partial class RegistrationSportsmenForm : Window
     {
-        public ChangingParamsForm()
+        public RegistrationSportsmenForm()
         {
             InitializeComponent();
+           // SportsmenData.ItemsSource
+           // TagerData.ItemsSource
+           // TeamsData.ItemsSource
+           // TrainingData.ItemsSource
         }
     }
 }

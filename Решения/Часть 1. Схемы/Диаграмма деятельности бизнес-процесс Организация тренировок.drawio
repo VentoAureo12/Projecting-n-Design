@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T10:48:27.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="FJ0kkDp0RhsaIekHq9w1" version="22.0.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-05T06:19:15.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2470 YaBrowser/23.11.0.2470 Yowser/2.5 Safari/537.36" etag="9SJMoxZjEzziYJIHk4e1" version="22.1.5" type="device">
   <diagram id="l7JdewE_dLOG6l5-0Vy7" name="Страница — 1">
-    <mxGraphModel dx="1284" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,10 +156,10 @@
         <mxCell id="Oq0O9l1t6l_6nkdDXVSP-52" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="340" y="550" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-55" value="Должно содержать команду спортсмены, выданный тип тагера" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-55" value="Должно содержать&lt;br&gt;спортсмена, команду спортсмена, выданный тип тагера" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="670" y="70" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-56" value="Должно содержатьдату и время окончания тренировки, причину окончания(если есть)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+        <mxCell id="Oq0O9l1t6l_6nkdDXVSP-56" value="Должно содержать дату и время окончания тренировки, причину окончания" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="670" y="190" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Oq0O9l1t6l_6nkdDXVSP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="Oq0O9l1t6l_6nkdDXVSP-4" target="Oq0O9l1t6l_6nkdDXVSP-56" edge="1">

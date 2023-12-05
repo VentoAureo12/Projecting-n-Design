@@ -10,19 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ReportForm.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ReportForm : Window
     {
-        public MainWindow()
+        public ReportForm()
         {
             InitializeComponent();
+        }
+
+        private void CreateReportButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

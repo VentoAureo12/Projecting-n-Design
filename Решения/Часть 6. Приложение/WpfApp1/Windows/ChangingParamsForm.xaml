@@ -11,21 +11,23 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Width="400" Height="70" x:Name="ChangeSportsmenDataButton" Click="ChangeSportsmenDataButton_Click">
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Height="25" Width="100" HorizontalAlignment="Left">Главная форма</Button>
+        <Button Grid.Row="1" Width="400" Height="70" x:Name="ChangeSportsmenDataButton" Click="ChangeSportsmenDataButton_Click">
             <TextBlock TextWrapping="Wrap" Text="Изменить данные о спортсменах" FontSize="25" TextAlignment="Center"/>
         </Button>
-        <Button Grid.Row="1" Width="400" Height="70"  x:Name="ChangeResultsDataButton" Click="ChangeResultsDataButton_Click">
+        <Button Grid.Row="2" Width="400" Height="70"  x:Name="ChangeResultsDataButton" Click="ChangeResultsDataButton_Click">
             <TextBlock TextWrapping="Wrap" Text="Изменить данные о результатах тренировки" FontSize="25" TextAlignment="Center"/>
         </Button>
-        <Button Grid.Row="2" Width="400" Height="70" x:Name="ChangeTagersDataButton" Click="ChangeTagersDataButton_Click">
+        <Button Grid.Row="3" Width="400" Height="70" x:Name="ChangeTagersDataButton" Click="ChangeTagersDataButton_Click">
             <TextBlock TextWrapping="Wrap" Text="Изменить данные о тагерах" FontSize="25" TextAlignment="Center"/>
         </Button>
-        <Button Grid.Row="3" Width="400" Height="70" x:Name="ChangeTeamsDataButton" Click="ChangeTeamsDataButton_Click">
+        <Button Grid.Row="4" Width="400" Height="70" x:Name="ChangeTeamsDataButton" Click="ChangeTeamsDataButton_Click">
             <TextBlock TextWrapping="Wrap" Text="Изменить данные о командах" FontSize="25" TextAlignment="Center"/>
         </Button>
     </Grid>

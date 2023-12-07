@@ -9,6 +9,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
@@ -17,15 +18,17 @@
                 <MenuItem Header="Добавить новый тагер" Click="AddTaggerButton_Click"/>
                 <MenuItem Header="Редактировать" Click="EditButton_Click"/>
                 <MenuItem Header="Удалить" Click="DeleteButton_Click"/>
+                <MenuItem Header="Сохранить" Click="SaveButton_Click"/>
             </MenuItem>
         </Menu>
-        
-        <TextBox x:Name="SearchTextBox" Text="Поиск по названию тагера" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="1"/>
-        <DataGrid x:Name="TaggerDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="2">
+
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Grid.Row="1" HorizontalAlignment="Left" Height="25" Width="100">Главная форма</Button>
+        <TextBlock Text="Поиск по названию тагера" Height="25" Width="200" Grid.Row="1" HorizontalAlignment="Center" TextAlignment="Center"></TextBlock>
+        <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2"/>
+        <DataGrid x:Name="TaggerDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код тагера" Binding="{Binding Код_тагера}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Тип тагера" Binding="{Binding Тип_тагера}" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

@@ -20,9 +20,10 @@ namespace WpfApp1
             : base("name=GarnizonEntities")
         {
         }
+
         public static GarnizonEntities GetContext()
         {
-            if(_context == null)
+            if (_context == null)
             {
                 _context = new GarnizonEntities();
                 return _context;
@@ -32,7 +33,7 @@ namespace WpfApp1
                 return _context;
             }
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

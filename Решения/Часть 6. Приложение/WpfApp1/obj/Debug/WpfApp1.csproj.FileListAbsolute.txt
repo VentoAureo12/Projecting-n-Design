@@ -38,3 +38,8 @@ C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Реш
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

@@ -13,11 +13,14 @@
             <ColumnDefinition Width="35*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0" HorizontalScrollBarVisibility="Visible">
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Width="95" Height="25" HorizontalAlignment="Left">Главная форма</Button>
+
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="1" HorizontalScrollBarVisibility="Visible" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Width="99" Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
@@ -27,7 +30,7 @@
                 <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>
-        <DataGrid x:Name="TrainingDataGrid" Grid.Row="1">
+        <DataGrid x:Name="TrainingDataGrid" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Дата тренировки" Binding="{Binding Дата_тренировки}"></DataGridTextColumn>
@@ -35,17 +38,17 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <TextBlock Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">ID спортсмена</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+        <TextBlock Grid.Row="1" Grid.Column="2" Height="50" Width="200" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">ID спортсмена</TextBlock>
+        <TextBox x:Name="SportsmanIDTextBox" Grid.Row="1" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
 
-        <Grid Grid.Row="1" Grid.Column="2">
+        <Grid Grid.Row="2" Grid.Column="2">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Grid.Column="2" Height="50" Width="200" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">ID тренировки</TextBlock>
-            <TextBox Grid.Row="1" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+            <TextBox x:Name="TrainingIDTextBox" Grid.Row="1" Grid.Column="2" Height="50" Width="200" FontSize="25" VerticalAlignment="Bottom" HorizontalAlignment="Center" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
 
             <Button x:Name="CreateReportButton" Click="CreateReportButton_Click"  Grid.Column="2" Grid.Row="2" Height="50" Width="260" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center">Сформировать отчёт</Button>
         </Grid>

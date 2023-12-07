@@ -9,7 +9,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Menu Grid.Row="0">
@@ -17,10 +17,12 @@
                 <MenuItem Header="Добавить новый результат" Click="AddResultButton_Click"/>
                 <MenuItem Header="Редактировать" Click="EditButton_Click"/>
                 <MenuItem Header="Удалить" Click="DeleteButton_Click"/>
+                <MenuItem Header="Сохранить" Click="SaveButton_Click"/>у
             </MenuItem>
         </Menu>
 
-        <DataGrid x:Name="ResultsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="1" Grid.RowSpan="2">
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Grid.Row="1" Height="25" Width="100" HorizontalAlignment="Left">Главная форма</Button>
+        <DataGrid x:Name="ResultsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" Grid.RowSpan="2">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код результата" Binding="{Binding Код_результата_тренировки}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}" IsReadOnly="True"/>

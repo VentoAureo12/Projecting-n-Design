@@ -22,7 +22,7 @@ namespace WpfApp1
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();               
         }
 
         private void ChangeParamsButton_Click(object sender, RoutedEventArgs e)

@@ -22,7 +22,6 @@ namespace WpfApp1
     
         public int Код_тагера { get; set; }
         public string Наименование { get; set; }
-        public string Тип_тагера { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Cпортсмен_Тренировка> Cпортсмен_Тренировка { get; set; }

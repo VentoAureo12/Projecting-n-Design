@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="GarnizonEntities">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ClubModelContainer" CdmEntityContainer="GarnizonEntities">
     <EntitySetMapping Name="Cпортсмен">
-      <EntityTypeMapping TypeName="Model.Cпортсмен">
+      <EntityTypeMapping TypeName="ClubModel.Cпортсмен">
         <MappingFragment StoreEntitySet="Cпортсмен">
           <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
           <ScalarProperty Name="Имя" ColumnName="Имя" />
@@ -14,7 +14,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Cпортсмен_Тренировка">
-      <EntityTypeMapping TypeName="Model.Cпортсмен_Тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Cпортсмен_Тренировка">
         <MappingFragment StoreEntitySet="Cпортсмен_Тренировка">
           <ScalarProperty Name="Код_записи" ColumnName="Код_записи" />
           <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
@@ -25,7 +25,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="Model.sysdiagrams">
+      <EntityTypeMapping TypeName="ClubModel.sysdiagrams">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />
@@ -36,7 +36,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Команда">
-      <EntityTypeMapping TypeName="Model.Команда">
+      <EntityTypeMapping TypeName="ClubModel.Команда">
         <MappingFragment StoreEntitySet="Команда">
           <ScalarProperty Name="Код_команды" ColumnName="Код_команды" />
           <ScalarProperty Name="Наименование_команды" ColumnName="Наименование_команды" />
@@ -44,7 +44,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Окончанная_тренировка">
-      <EntityTypeMapping TypeName="Model.Окончанная_тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Окончанная_тренировка">
         <MappingFragment StoreEntitySet="Окончанная тренировка">
           <ScalarProperty Name="Код_окончанной_тренировки" ColumnName="Код_окончанной_тренировки" />
           <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
@@ -55,7 +55,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Отчёт_о_тренировке">
-      <EntityTypeMapping TypeName="Model.Отчёт_о_тренировке">
+      <EntityTypeMapping TypeName="ClubModel.Отчёт_о_тренировке">
         <MappingFragment StoreEntitySet="Отчёт о тренировке">
           <ScalarProperty Name="Код_отчёта" ColumnName="Код_отчёта" />
           <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
@@ -65,7 +65,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Результат_тренировки">
-      <EntityTypeMapping TypeName="Model.Результат_тренировки">
+      <EntityTypeMapping TypeName="ClubModel.Результат_тренировки">
         <MappingFragment StoreEntitySet="Результат тренировки">
           <ScalarProperty Name="Код_результата_тренировки" ColumnName="Код_результата_тренировки" />
           <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
@@ -78,7 +78,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Таблица_результатов">
-      <EntityTypeMapping TypeName="Model.Таблица_результатов">
+      <EntityTypeMapping TypeName="ClubModel.Таблица_результатов">
         <MappingFragment StoreEntitySet="Таблица результатов">
           <ScalarProperty Name="Код_результата" ColumnName="Код_результата" />
           <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
@@ -89,16 +89,15 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Тагер">
-      <EntityTypeMapping TypeName="Model.Тагер">
+      <EntityTypeMapping TypeName="ClubModel.Тагер">
         <MappingFragment StoreEntitySet="Тагер">
           <ScalarProperty Name="Код_тагера" ColumnName="Код_тагера" />
           <ScalarProperty Name="Наименование" ColumnName="Наименование" />
-          <ScalarProperty Name="Тип_тагера" ColumnName="Тип_тагера" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Тренировка">
-      <EntityTypeMapping TypeName="Model.Тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Тренировка">
         <MappingFragment StoreEntitySet="Тренировка">
           <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
           <ScalarProperty Name="Дата_тренировки" ColumnName="Дата_тренировки" />

@@ -9,21 +9,25 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Menu Grid.Row="0">
             <MenuItem Header="Управление">
-                <MenuItem Header="Добавить нового спортсмена" Click="AddTeamButton_Click"/>
+                <MenuItem Header="Добавить новую команду" Click="AddTeamButton_Click"/>
                 <MenuItem Header="Редактировать" Click="EditButton_Click"/>
-                <MenuItem Header="Удалить" Click="DeleteButton_Click"/>
+                <MenuItem Header="Удалить выбранное" Click="DeleteButton_Click"/>
+                <MenuItem Header="Сохранить изменения" Click="SaveButton_Click"/>
             </MenuItem>
         </Menu>
 
-        <TextBox x:Name="SearchTextBox" Text="Поиск по названию команды" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="1"/>
-        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="2">
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Grid.Row="1" HorizontalAlignment="Left" Height="25" Width="100">Главная форма</Button>
+        <TextBlock Text="Поиск по названию команды" Height="25" Width="200" Grid.Row="1" HorizontalAlignment="Center" TextAlignment="Center"></TextBlock>
+        <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2" HorizontalAlignment="Center"/>
+        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код команды" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Код команды" Binding="{Binding Код_команды}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование_команды}" IsReadOnly="True"/>
             </DataGrid.Columns>
         </DataGrid>

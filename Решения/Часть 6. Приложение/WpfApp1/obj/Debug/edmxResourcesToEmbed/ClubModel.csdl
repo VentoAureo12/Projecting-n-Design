@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="ClubModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Cпортсмен">
     <Key>
       <PropertyRef Name="Код_спортсмена" />
     </Key>
-    <Property Name="Код_спортсмена" Type="Int32" Nullable="false" />
+    <Property Name="Код_спортсмена" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Имя" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
     <Property Name="Фамилия" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
     <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
@@ -20,7 +20,7 @@
     <Key>
       <PropertyRef Name="Код_записи" />
     </Key>
-    <Property Name="Код_записи" Type="Int32" Nullable="false" />
+    <Property Name="Код_записи" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Код_спортсмена" Type="Int32" />
     <Property Name="Код_тренировки" Type="Int32" />
     <Property Name="Код_тагера" Type="Int32" />
@@ -44,7 +44,7 @@
     <Key>
       <PropertyRef Name="Код_команды" />
     </Key>
-    <Property Name="Код_команды" Type="Int32" Nullable="false" />
+    <Property Name="Код_команды" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Наименование_команды" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
     <NavigationProperty Name="Cпортсмен_Тренировка" Relationship="Self.FK_Cпортсмен_Тренировка_Команда" FromRole="Команда" ToRole="Cпортсмен_Тренировка" />
   </EntityType>
@@ -52,7 +52,7 @@
     <Key>
       <PropertyRef Name="Код_окончанной_тренировки" />
     </Key>
-    <Property Name="Код_окончанной_тренировки" Type="Int32" Nullable="false" />
+    <Property Name="Код_окончанной_тренировки" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Код_тренировки" Type="Int32" />
     <Property Name="Код_спортсмена" Type="Int32" />
     <Property Name="Время_окончания" Type="Time" Precision="4" />
@@ -64,7 +64,7 @@
     <Key>
       <PropertyRef Name="Код_отчёта" />
     </Key>
-    <Property Name="Код_отчёта" Type="Int32" Nullable="false" />
+    <Property Name="Код_отчёта" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Код_спортсмена" Type="Int32" />
     <Property Name="Код_тренировки" Type="Int32" />
     <Property Name="Код_результата" Type="Int32" />
@@ -76,7 +76,7 @@
     <Key>
       <PropertyRef Name="Код_результата_тренировки" />
     </Key>
-    <Property Name="Код_результата_тренировки" Type="Int32" Nullable="false" />
+    <Property Name="Код_результата_тренировки" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Код_тренировки" Type="Int32" />
     <Property Name="Код_спортсмена" Type="Int32" />
     <Property Name="Количество_попаданий" Type="Int32" />
@@ -91,7 +91,7 @@
     <Key>
       <PropertyRef Name="Код_результата" />
     </Key>
-    <Property Name="Код_результата" Type="Int32" Nullable="false" />
+    <Property Name="Код_результата" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Код_спортсмена" Type="Int32" />
     <Property Name="Общее_количество_попаданий" Type="Int32" />
     <Property Name="Общее_количество_захваченных_точек" Type="Int32" />
@@ -102,16 +102,15 @@
     <Key>
       <PropertyRef Name="Код_тагера" />
     </Key>
-    <Property Name="Код_тагера" Type="Int32" Nullable="false" />
+    <Property Name="Код_тагера" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Наименование" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
-    <Property Name="Тип_тагера" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
     <NavigationProperty Name="Cпортсмен_Тренировка" Relationship="Self.FK_Cпортсмен_Тренировка_Тагер" FromRole="Тагер" ToRole="Cпортсмен_Тренировка" />
   </EntityType>
   <EntityType Name="Тренировка">
     <Key>
       <PropertyRef Name="Код_тренировки" />
     </Key>
-    <Property Name="Код_тренировки" Type="Int32" Nullable="false" />
+    <Property Name="Код_тренировки" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Дата_тренировки" Type="DateTime" Precision="0" />
     <Property Name="Время_тренировки" Type="Time" Precision="4" />
     <NavigationProperty Name="Cпортсмен_Тренировка" Relationship="Self.FK_Cпортсмен_Тренировка_Тренировка" FromRole="Тренировка" ToRole="Cпортсмен_Тренировка" />

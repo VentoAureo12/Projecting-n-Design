@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="Хранилище ClubModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Cпортсмен">
     <Key>
       <PropertyRef Name="Код_спортсмена" />
     </Key>
-    <Property Name="Код_спортсмена" Type="int" Nullable="false" />
+    <Property Name="Код_спортсмена" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Имя" Type="nchar" MaxLength="30" />
     <Property Name="Фамилия" Type="nchar" MaxLength="30" />
     <Property Name="Отчество" Type="nchar" MaxLength="50" />
@@ -15,7 +15,7 @@
     <Key>
       <PropertyRef Name="Код_записи" />
     </Key>
-    <Property Name="Код_записи" Type="int" Nullable="false" />
+    <Property Name="Код_записи" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Код_спортсмена" Type="int" />
     <Property Name="Код_тренировки" Type="int" />
     <Property Name="Код_тагера" Type="int" />
@@ -35,14 +35,14 @@
     <Key>
       <PropertyRef Name="Код_команды" />
     </Key>
-    <Property Name="Код_команды" Type="int" Nullable="false" />
+    <Property Name="Код_команды" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Наименование_команды" Type="nchar" MaxLength="30" />
   </EntityType>
   <EntityType Name="Окончанная тренировка">
     <Key>
       <PropertyRef Name="Код_окончанной_тренировки" />
     </Key>
-    <Property Name="Код_окончанной_тренировки" Type="int" Nullable="false" />
+    <Property Name="Код_окончанной_тренировки" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Код_тренировки" Type="int" />
     <Property Name="Код_спортсмена" Type="int" />
     <Property Name="Время_окончания" Type="time" Precision="4" />
@@ -52,7 +52,7 @@
     <Key>
       <PropertyRef Name="Код_отчёта" />
     </Key>
-    <Property Name="Код_отчёта" Type="int" Nullable="false" />
+    <Property Name="Код_отчёта" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Код_спортсмена" Type="int" />
     <Property Name="Код_тренировки" Type="int" />
     <Property Name="Код_результата" Type="int" />
@@ -61,7 +61,7 @@
     <Key>
       <PropertyRef Name="Код_результата_тренировки" />
     </Key>
-    <Property Name="Код_результата_тренировки" Type="int" Nullable="false" />
+    <Property Name="Код_результата_тренировки" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Код_тренировки" Type="int" />
     <Property Name="Код_спортсмена" Type="int" />
     <Property Name="Количество_попаданий" Type="int" />
@@ -73,7 +73,7 @@
     <Key>
       <PropertyRef Name="Код_результата" />
     </Key>
-    <Property Name="Код_результата" Type="int" Nullable="false" />
+    <Property Name="Код_результата" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Код_спортсмена" Type="int" />
     <Property Name="Общее_количество_попаданий" Type="int" />
     <Property Name="Общее_количество_захваченных_точек" Type="int" />
@@ -83,15 +83,14 @@
     <Key>
       <PropertyRef Name="Код_тагера" />
     </Key>
-    <Property Name="Код_тагера" Type="int" Nullable="false" />
+    <Property Name="Код_тагера" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Наименование" Type="nchar" MaxLength="30" />
-    <Property Name="Тип_тагера" Type="nchar" MaxLength="30" />
   </EntityType>
   <EntityType Name="Тренировка">
     <Key>
       <PropertyRef Name="Код_тренировки" />
     </Key>
-    <Property Name="Код_тренировки" Type="int" Nullable="false" />
+    <Property Name="Код_тренировки" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Дата_тренировки" Type="date" />
     <Property Name="Время_тренировки" Type="time" Precision="4" />
   </EntityType>
@@ -239,7 +238,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="Хранилище ModelContainer">
+  <EntityContainer Name="Хранилище ClubModelContainer">
     <EntitySet Name="Cпортсмен" EntityType="Self.Cпортсмен" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cпортсмен_Тренировка" EntityType="Self.Cпортсмен_Тренировка" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />

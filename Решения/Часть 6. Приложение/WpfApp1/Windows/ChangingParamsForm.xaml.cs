@@ -52,5 +52,12 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
+
+        private void SnapBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            window.Show();
+            this.Close();
+        }
     }
 }

@@ -13,29 +13,48 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="0">
-            
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" HorizontalAlignment="Left" Height="25" Width="90">Главная форма</Button>
+        
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
+            </DataGrid.Columns>
         </DataGrid>
-        <DataGrid x:Name="TrainingDataGrid" Grid.Row="1">
-            
+        
+        <DataGrid x:Name="TrainingDataGrid" Grid.Row="2" Grid.RowSpan="2" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Visible">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата тренировки" Binding="{Binding Дата_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Время тренировки" Binding="{Binding Время_тренировки}"></DataGridTextColumn>
+            </DataGrid.Columns>
         </DataGrid>
 
-        <TextBlock Grid.Row="0" Grid.Column="2" FontSize="25" Width="200" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center">ID тренировки</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="2" Width="200" Height="50" x:Name="TrainingIDTextBox" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
-        
-        <Grid Grid.Row="1" Grid.Column="2">
+        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="25" Width="200" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center">ID спортсмена</TextBlock>
+        <TextBox x:Name="SportsmenIDTextBox" Grid.Row="1" Grid.Column="2" Width="200" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Center" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="2"  Width="200" Height="50" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center">ID тренировки</TextBlock>
+        <TextBox x:Name="TrainingIDTextBox" Grid.Row="2" Grid.Column="2" Height="50" Width="200" VerticalAlignment="Bottom" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
+
+        <Grid Grid.Row="3" Grid.Column="2">
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="25*"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" >ID спортсмена</TextBlock>
-            <TextBox Grid.Row="1" x:Name="SportsmenIDTextBox" Height="50" Width="200"></TextBox>
-            <Button Grid.Row="2" Height="50" Width="200" FontSize="25" >Внести данные</Button>
+            <TextBlock Grid.Row="0" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Height="50" Width="300" >Причина окончания</TextBlock>
+            <TextBox Grid.Row="1" x:Name="ReasonTextBox" Height="50" Width="200" PreviewTextInput="TextBoxButton_PreviewTextInput"></TextBox>
+            <Button x:Name="SendDataButton" Click="SendDataButton_Click" Grid.Row="2" Height="30" Width="200" FontSize="20">Внести данные</Button>
         </Grid>
         
         

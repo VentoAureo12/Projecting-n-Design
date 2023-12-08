@@ -15,25 +15,21 @@ namespace WpfApp1
     
     public partial class GarnizonEntities : DbContext
     {
-        public static GarnizonEntities _context;
+        private static GarnizonEntities _context;
         public GarnizonEntities()
             : base("name=GarnizonEntities")
         {
         }
-
+        
         public static GarnizonEntities GetContext()
         {
-            if (_context == null)
+            if(_context == null)
             {
                 _context = new GarnizonEntities();
-                return _context;
             }
-            else
-            {
-                return _context;
-            }
+            return _context;
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

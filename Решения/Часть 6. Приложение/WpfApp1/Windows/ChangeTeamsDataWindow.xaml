@@ -25,10 +25,10 @@
         <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Grid.Row="1" HorizontalAlignment="Left" Height="25" Width="100">Главная форма</Button>
         <TextBlock Text="Поиск по названию команды" Height="25" Width="200" Grid.Row="1" HorizontalAlignment="Center" TextAlignment="Center"></TextBlock>
         <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2" HorizontalAlignment="Center"/>
-        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3">
+        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код команды" Binding="{Binding Код_команды}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование_команды}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Код команды" Binding="{Binding Код_команды}"/>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование_команды}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

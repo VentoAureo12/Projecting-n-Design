@@ -1,7 +1,6 @@
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\WpfApp1.exe
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\WpfApp1.pdb
-C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\Windows\ChangingParamsForm.g.cs
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\Windows\EndOfTrainingForm.g.cs
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\Windows\MainWindow.g.cs
@@ -43,3 +42,4 @@ C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Реш
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\DocumentFormat.OpenXml.Framework.xml
 C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\You now where u are\Desktop\Курсовая\Projecting-n-Design\Решения\Часть 6. Приложение\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache

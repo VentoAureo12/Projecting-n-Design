@@ -22,14 +22,14 @@
         </Menu>
 
         <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" Grid.Row="1" Height="25" Width="100" HorizontalAlignment="Left">Главная форма</Button>
-        <DataGrid x:Name="ResultsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" Grid.RowSpan="2">
+        <DataGrid x:Name="ResultsDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" Grid.RowSpan="2" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код результата" Binding="{Binding Код_результата_тренировки}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Количество захваченных точек" Binding="{Binding Количество_захваченных_точек}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Количество устранений" Binding="{Binding Количество_устранений}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Перенесено" Binding="{Binding Перенесено}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Код результата" Binding="{Binding Код_результата_тренировки}"/>
+                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}"/>
+                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}"/>
+                <DataGridTextColumn Header="Количество захваченных точек" Binding="{Binding Количество_захваченных_точек}"/>
+                <DataGridTextColumn Header="Количество устранений" Binding="{Binding Количество_устранений}"/>
+                <DataGridTextColumn Header="Перенесено" Binding="{Binding Перенесено}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

@@ -27,8 +27,8 @@
         <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2"/>
         <DataGrid x:Name="TaggerDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код тагера" Binding="{Binding Код_тагера}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Код тагера" Binding="{Binding Код_тагера}"/>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

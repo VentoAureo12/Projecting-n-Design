@@ -18,19 +18,20 @@
                 <MenuItem Header="Добавить нового спортсмена" Click="AddSportsmenButton_Click"/>
                 <MenuItem Header="Редактировать" Click="EditButton_Click"/>
                 <MenuItem Header="Удалить" Click="DeleteButton_Click"/>
+                <MenuItem Header="Сохранить" Click="SaveButton_Click"/>
             </MenuItem>
         </Menu>
 
         <TextBlock Text="Поиск по фамилии, или телефону" Grid.Row="1" Height="25" Width="200" TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
         <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2" HorizontalAlignment="Center"/>
-        <DataGrid x:Name="SportsmenDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3">
+        <DataGrid x:Name="SportsmenDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

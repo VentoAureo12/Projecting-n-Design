@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Главная Форма" Height="450" Width="800" MaxHeight="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Регистрация спортсмена на тренировку</TextBlock>
+        <Button x:Name="RegistrationOnTrainingButton" Grid.Column="1" Grid.Row="0" Width="250" Height="50" FontSize="15" Click="RegistrationOnTrainingButton_Click">Перейти на форму регистрации</Button>
+        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Запись об окончании тренировки</TextBlock>
+        <Button x:Name="EndingOfTrainingButton" Click="EndingOfTrainingButton_Click" Grid.Column="1" Grid.Row="1" Width="250" Height="50" FontSize="15">Перейти на форму записи</Button>
+        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Формирование отчета</TextBlock>
+        <Button x:Name="ReportFormingButton" Click="ReportFormingButton_Click" Grid.Column="1" Grid.Row="2" Width="250" Height="50" FontSize="15">Перейти на форму отчета</Button>
+        <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Занесение результатов в общую таблицу</TextBlock>
+        <Button x:Name="ResultSendButton" Click="ResultSendButton_Click" Grid.Column="1" Grid.Row="3" Width="250" Height="50" FontSize="15">
+            <TextBlock TextWrapping="Wrap">
+                Перейти на форму занесения результатов
+            </TextBlock>
+        </Button>
+        <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20">Изменение параметров</TextBlock>
+        <Button x:Name="ChangeParamsButton" Grid.Column="1" Grid.Row="4" Width="250" Height="50" FontSize="15" Click="ChangeParamsButton_Click">
+            <TextBlock TextWrapping="Wrap">
+            Перейти на форму изменения параметров
+            </TextBlock>
+        </Button>
+    </Grid>
+</Window>

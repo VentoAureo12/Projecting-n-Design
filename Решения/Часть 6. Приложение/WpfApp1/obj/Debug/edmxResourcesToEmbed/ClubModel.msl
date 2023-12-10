@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ClubModelContainer" CdmEntityContainer="GarnizonEntities">
+    <EntitySetMapping Name="Cпортсмен">
+      <EntityTypeMapping TypeName="ClubModel.Cпортсмен">
+        <MappingFragment StoreEntitySet="Cпортсмен">
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата_рождения" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cпортсмен_Тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Cпортсмен_Тренировка">
+        <MappingFragment StoreEntitySet="Cпортсмен_Тренировка">
+          <ScalarProperty Name="Код_записи" ColumnName="Код_записи" />
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
+          <ScalarProperty Name="Код_тагера" ColumnName="Код_тагера" />
+          <ScalarProperty Name="Код_команды" ColumnName="Код_команды" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ClubModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Команда">
+      <EntityTypeMapping TypeName="ClubModel.Команда">
+        <MappingFragment StoreEntitySet="Команда">
+          <ScalarProperty Name="Код_команды" ColumnName="Код_команды" />
+          <ScalarProperty Name="Наименование_команды" ColumnName="Наименование_команды" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Окончанная_тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Окончанная_тренировка">
+        <MappingFragment StoreEntitySet="Окончанная тренировка">
+          <ScalarProperty Name="Код_окончанной_тренировки" ColumnName="Код_окончанной_тренировки" />
+          <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Время_окончания" ColumnName="Время_окончания" />
+          <ScalarProperty Name="Причина" ColumnName="Причина" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Отчёт_о_тренировке">
+      <EntityTypeMapping TypeName="ClubModel.Отчёт_о_тренировке">
+        <MappingFragment StoreEntitySet="Отчёт о тренировке">
+          <ScalarProperty Name="Код_отчёта" ColumnName="Код_отчёта" />
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
+          <ScalarProperty Name="Код_результата" ColumnName="Код_результата" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Результат_тренировки">
+      <EntityTypeMapping TypeName="ClubModel.Результат_тренировки">
+        <MappingFragment StoreEntitySet="Результат тренировки">
+          <ScalarProperty Name="Код_результата_тренировки" ColumnName="Код_результата_тренировки" />
+          <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Количество_попаданий" ColumnName="Количество_попаданий" />
+          <ScalarProperty Name="Количество_захваченных_точек" ColumnName="Количество_захваченных_точек" />
+          <ScalarProperty Name="Количество_устранений" ColumnName="Количество_устранений" />
+          <ScalarProperty Name="Перенесено" ColumnName="Перенесено" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Таблица_результатов">
+      <EntityTypeMapping TypeName="ClubModel.Таблица_результатов">
+        <MappingFragment StoreEntitySet="Таблица результатов">
+          <ScalarProperty Name="Код_результата" ColumnName="Код_результата" />
+          <ScalarProperty Name="Код_спортсмена" ColumnName="Код_спортсмена" />
+          <ScalarProperty Name="Общее_количество_попаданий" ColumnName="Общее_количество_попаданий" />
+          <ScalarProperty Name="Общее_количество_захваченных_точек" ColumnName="Общее_количество_захваченных_точек" />
+          <ScalarProperty Name="Общее_количество_устранений" ColumnName="Общее_количество_устранений" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Тагер">
+      <EntityTypeMapping TypeName="ClubModel.Тагер">
+        <MappingFragment StoreEntitySet="Тагер">
+          <ScalarProperty Name="Код_тагера" ColumnName="Код_тагера" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Тренировка">
+      <EntityTypeMapping TypeName="ClubModel.Тренировка">
+        <MappingFragment StoreEntitySet="Тренировка">
+          <ScalarProperty Name="Код_тренировки" ColumnName="Код_тренировки" />
+          <ScalarProperty Name="Дата_тренировки" ColumnName="Дата_тренировки" />
+          <ScalarProperty Name="Время_тренировки" ColumnName="Время_тренировки" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

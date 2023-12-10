@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T04:00:18.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.2.888 Yowser/2.5 Safari/537.36" etag="Kdp8aYxvQSh2N7j94fGX" version="22.0.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-05T12:06:33.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2470 YaBrowser/23.11.0.2470 Yowser/2.5 Safari/537.36" etag="bgiNs5Fmwvbrj8SW_EXR" version="22.1.5" type="device">
   <diagram name="Страница — 1" id="PcaY27iTRmeM68VzTSL-">
-    <mxGraphModel dx="1040" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="Dm_8WElvDobPEIF0tm5e-9" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="210" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Dm_8WElvDobPEIF0tm5e-10" value="Должно содержать команду спортсмена, выданный тип тагера" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="Dm_8WElvDobPEIF0tm5e-9" vertex="1">
+        <mxCell id="Dm_8WElvDobPEIF0tm5e-10" value="Должно содержать команду спортсмена, название тагера" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="Dm_8WElvDobPEIF0tm5e-9" vertex="1">
           <mxGeometry x="40" y="40" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dm_8WElvDobPEIF0tm5e-11" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">

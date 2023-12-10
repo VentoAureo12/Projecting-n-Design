@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfApp1.Windows.ChangeSportsmenDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+        Title="Изменить данные спортсменов" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Управление">
+                <MenuItem Header="Добавить нового спортсмена" Click="AddSportsmenButton_Click"/>
+                <MenuItem Header="Редактировать" Click="EditButton_Click"/>
+                <MenuItem Header="Удалить" Click="DeleteButton_Click"/>
+                <MenuItem Header="Сохранить" Click="SaveButton_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <TextBlock Text="Поиск по фамилии, или телефону" Grid.Row="1" Height="25" Width="200" TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox x:Name="SearchTextBox" Height="25" Width="200" TextChanged="SearchTextBox_TextChanged" Grid.Row="2" HorizontalAlignment="Center"/>
+        <DataGrid x:Name="SportsmenDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="3" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

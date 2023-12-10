@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp1.EndOfTrainingForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Окончание тренировки" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="SnapBackButton" Click="SnapBackButton_Click" HorizontalAlignment="Left" Height="25" Width="90">Главная форма</Button>
+        
+        <DataGrid x:Name="SportsmenDataGrid" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код спортсмена" Binding="{Binding Код_спортсмена}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Имя}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Дата_рождения}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <DataGrid x:Name="TrainingDataGrid" Grid.Row="2" Grid.RowSpan="2" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Visible">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код тренировки" Binding="{Binding Код_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата тренировки" Binding="{Binding Дата_тренировки}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Время тренировки" Binding="{Binding Время_тренировки}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="25" Width="200" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center">ID спортсмена</TextBlock>
+        <TextBox x:Name="SportsmenIDTextBox" Grid.Row="1" Grid.Column="2" Width="200" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Center" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="2"  Width="200" Height="50" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center">ID тренировки</TextBlock>
+        <TextBox x:Name="TrainingIDTextBox" Grid.Row="2" Grid.Column="2" Height="50" Width="200" VerticalAlignment="Bottom" PreviewTextInput="NumericTextBox_OnPreviewTextInput"></TextBox>
+
+        <Grid Grid.Row="3" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="25*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" Height="50" Width="300" >Причина окончания</TextBlock>
+            <TextBox Grid.Row="1" x:Name="ReasonTextBox" Height="50" Width="200" PreviewTextInput="TextBoxButton_PreviewTextInput"></TextBox>
+            <Button x:Name="SendDataButton" Click="SendDataButton_Click" Grid.Row="2" Height="30" Width="200" FontSize="20">Внести данные</Button>
+        </Grid>
+        
+        
+    </Grid>
+</Window>

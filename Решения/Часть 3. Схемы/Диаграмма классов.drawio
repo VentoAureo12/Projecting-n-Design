@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T12:05:49.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2470 YaBrowser/23.11.0.2470 Yowser/2.5 Safari/537.36" etag="jISVdRiaWn9IyWF0S1hQ" version="22.1.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-10T10:24:53.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="s5KsbFk_E7lMLPaskd-M" version="22.1.7" type="device">
   <diagram name="Страница — 1" id="Qu0wm0MgUiS_f0kj7Ct0">
-    <mxGraphModel dx="1659" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mhlp-eTYFJu1O5pDRAgd-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Форма регистрации спортсмена на тренировку.cs&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Загрузить данные о спортсменах(): void&lt;br&gt;+ Загрузить данные о командах(): void&lt;br&gt;+ Загрузить данные о тагерах(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Загрузить данные о тренировках(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Выбор спортсмена(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Выбор тренировки(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Выбор тагера(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Выбор команды(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Создание записи в таблице базы данных(): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="580" y="-490" width="400" height="190" as="geometry" />
+          <mxGeometry x="590" y="-530" width="400" height="190" as="geometry" />
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-9" target="mhlp-eTYFJu1O5pDRAgd-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -39,6 +39,16 @@
         </mxCell>
         <mxCell id="mhlp-eTYFJu1O5pDRAgd-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Изменение параметров&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Загрузить данные о спортсменах(): void&lt;br&gt;+ Загрузить данные о командах(): void&lt;br&gt;+ Загрузить данные о тагерах(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Загрузить данные о тренировках(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Добавить/удалить/изменить спортсмена(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Добавить/удалить/изменить результат тренировки(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Добавить/удалить/изменить тагер(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+&amp;nbsp;Добавить/удалить/изменить команду(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-290" y="-260" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3vah5Gt7jxUslWJde4li-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="mhlp-eTYFJu1O5pDRAgd-10" target="mhlp-eTYFJu1O5pDRAgd-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="-280" />
+              <mxPoint y="-560" />
+              <mxPoint x="290" y="-560" />
+              <mxPoint x="290" y="-597" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mhlp-eTYFJu1O5pDRAgd-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о спортсмене&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Код_спортсмена: int&lt;br&gt;- Фамилия: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Имя: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Отчество: char&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Дата_рождения: date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Телефон: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Добавить спортсмена(): void&lt;br&gt;+ Удалить спортсмена(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Изменить данные спортсмена(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-610" y="-295" width="230" height="200" as="geometry" />
@@ -69,9 +79,6 @@
         </mxCell>
         <mxCell id="mhlp-eTYFJu1O5pDRAgd-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о команде&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Код команды: int&lt;br&gt;- Название команды: char&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Добавить команду(): void&lt;br&gt;+ Удалить команду(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Изменить данные команды(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-400" y="-85" width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="6SgqG4V4tV7n62kS7OOO-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;" parent="1" source="G_WExZCxM53FgJ3CJvYQ-1" target="mhlp-eTYFJu1O5pDRAgd-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=-0.011;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G_WExZCxM53FgJ3CJvYQ-1" target="mhlp-eTYFJu1O5pDRAgd-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -108,7 +115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Отчёт о тренировке&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Код отчёта: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Код тренировки: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Код спортсмена: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Загрузить данные(): void&lt;br&gt;+ Обновить данные(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Удалить данные(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-780" y="-485" width="320" height="125" as="geometry" />
+          <mxGeometry x="-770" y="-430" width="320" height="125" as="geometry" />
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.188;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-10" target="mhlp-eTYFJu1O5pDRAgd-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,7 +135,7 @@
         <mxCell id="6SgqG4V4tV7n62kS7OOO-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.288;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-11" target="mhlp-eTYFJu1O5pDRAgd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6SgqG4V4tV7n62kS7OOO-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=-0.003;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-11" target="mhlp-eTYFJu1O5pDRAgd-4" edge="1">
+        <mxCell id="6SgqG4V4tV7n62kS7OOO-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=-0.003;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-11" target="mhlp-eTYFJu1O5pDRAgd-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.357;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=1;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-5" target="G_WExZCxM53FgJ3CJvYQ-2" edge="1">
@@ -136,6 +143,12 @@
         </mxCell>
         <mxCell id="6SgqG4V4tV7n62kS7OOO-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;exitX=0.358;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="mhlp-eTYFJu1O5pDRAgd-7" target="G_WExZCxM53FgJ3CJvYQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vah5Gt7jxUslWJde4li-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mhlp-eTYFJu1O5pDRAgd-11" target="mhlp-eTYFJu1O5pDRAgd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="-230" as="sourcePoint" />
+            <mxPoint x="688" y="-331" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

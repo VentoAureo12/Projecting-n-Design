@@ -1,0 +1,255 @@
+<mxfile host="app.diagrams.net" modified="2023-12-10T16:42:11.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="Ta77Y8KToMucgRl9-scj" version="22.1.7" type="device">
+  <diagram name="Страница — 1" id="KhUgcgEmkplIBIgaQ_FI">
+    <mxGraphModel dx="2092" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-4" target="UI5lX5gy5Dm4D3MDwp90-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-4" target="UI5lX5gy5Dm4D3MDwp90-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-4" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-4" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-4" value="Program.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-810" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-6" target="UI5lX5gy5Dm4D3MDwp90-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.959;entryY=1.015;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-6" target="UI5lX5gy5Dm4D3MDwp90-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-6" value="GarnizonApp.csproj" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-347.5" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-6">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-8" target="UI5lX5gy5Dm4D3MDwp90-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-8" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-8" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-66" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-2" target="UI5lX5gy5Dm4D3MDwp90-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-8" target="UI5lX5gy5Dm4D3MDwp90-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Главная форма&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-650" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-9" target="UI5lX5gy5Dm4D3MDwp90-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-80" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-9" target="UI5lX5gy5Dm4D3MDwp90-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Форма формирования отчёта.cs&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="-650" width="270" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-10" target="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-10" target="UI5lX5gy5Dm4D3MDwp90-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-11" target="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-11" target="UI5lX5gy5Dm4D3MDwp90-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Форма занесения результатов в общую таблицу.cs&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-570" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.084;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-12" target="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-12" target="UI5lX5gy5Dm4D3MDwp90-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-12" target="UI5lX5gy5Dm4D3MDwp90-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Форма регистрации спортсмена на тренировку.cs&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-470" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-13" target="UI5lX5gy5Dm4D3MDwp90-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Изменение параметров&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-255" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.653;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-18" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-15" target="UI5lX5gy5Dm4D3MDwp90-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.955;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-15" target="UI5lX5gy5Dm4D3MDwp90-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о спортсмене&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="-250" width="230" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-16" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.581;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-16" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о тренировке&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="-550" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-17" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о тагере&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="-375" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-18" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-19" target="UI5lX5gy5Dm4D3MDwp90-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-19" target="UI5lX5gy5Dm4D3MDwp90-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о результате тренировки&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-440" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.304;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-20" target="UI5lX5gy5Dm4D3MDwp90-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Таблица результатов&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-610" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-21" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Окончанная тренировка&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-688" y="-190" width="203" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Регистрация на тренировку&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="-495" width="250" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Отчёт о тренировке&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="-690" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-24" target="UI5lX5gy5Dm4D3MDwp90-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-24" value="GarnizonApp.sln" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-25" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-24">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-26" value="Форма изменения параметров.xaml.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-170" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-27" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-26">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-28" value="Форма регистрации спортсмена на тренировку.xaml.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-800" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-29" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-28">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-30" value="GarnizonApp.exe" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-340" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-31" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-30">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-9" target="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.165;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-16" target="UI5lX5gy5Dm4D3MDwp90-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-15" target="UI5lX5gy5Dm4D3MDwp90-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-70" value="Форма занесения результатов в общую таблицу.xaml.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-130" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-71" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-70">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-72" value="Форма записи об окончанной тренировки.xaml.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-140" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-73" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-72">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-78" value="Форма формирования отчёта.xaml.cs" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-780" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-79" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-78">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-82" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.003;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-15" target="UI5lX5gy5Dm4D3MDwp90-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-521" y="-140" as="sourcePoint" />
+            <mxPoint x="-330" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Класс сущностей:: Данные о команде&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="-312.5" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-83" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="UI5lX5gy5Dm4D3MDwp90-8" target="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="-400" as="sourcePoint" />
+            <mxPoint x="-30" y="-532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-2" value="App.config" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-450" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="UI5lX5gy5Dm4D3MDwp90-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI5lX5gy5Dm4D3MDwp90-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;Классы граничных объектов:: Форма записи об окончанной тренировки.cs&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-390" width="260" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

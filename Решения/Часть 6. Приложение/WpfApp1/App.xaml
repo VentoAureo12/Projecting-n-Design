@@ -4,6 +4,14 @@
              xmlns:local="clr-namespace:WpfApp1"
              StartupUri="Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <DataTemplate x:Key="DateStartTemplate">
+            <TextBlock Text="{Binding Дата_рождения, StringFormat={}{0:dd\.}{0:MM\.}{0:yyyy}}"></TextBlock>
+        </DataTemplate>
+        <DataTemplate x:Key="EditingDateStartTemplate">
+            <DatePicker SelectedDate="{Binding Дата_рождения, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        </DataTemplate>
+        <DataTemplate x:Key="EditingDateTemplate">
+            <DatePicker SelectedDate="{Binding Дата_рождения, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </DataTemplate>
     </Application.Resources>
 </Application>

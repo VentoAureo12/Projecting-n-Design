@@ -33,7 +33,7 @@ namespace WpfApp1.Windows
 
             if (selectedItems.Count > 0)
             {
-                string confirmationMessage = $"Вы уверены, что хотите удалить {selectedItems.Count} p?";
+                string confirmationMessage = $"Вы уверены, что хотите удалить {selectedItems.Count} записей?";
 
                 // Отображаем диалоговое окно для подтверждения удаления
                 MessageBoxResult result = MessageBox.Show(confirmationMessage, "Подтверждение удаления",
@@ -92,7 +92,7 @@ namespace WpfApp1.Windows
                     }
                 }
                 TeamsDataGrid.ItemsSource = null;
-                TeamsDataGrid.ItemsSource = dbContext.Тагер.ToList();
+                TeamsDataGrid.ItemsSource = dbContext.Команда.ToList();
             }
             else
             {
@@ -113,12 +113,10 @@ namespace WpfApp1.Windows
 
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string searchTerm = SearchTextBox.Text.ToLower(); // Преобразуйте введенный текст в нижний регистр для регистронезависимого поиска
+            string searchTerm = SearchTextBox.Text.ToLower();
 
-            // Получите данные из вашей EDM модели
-            var data = dbContext.Команда.ToList(); // Замените YourEntity на реальное имя вашей сущности
+            var data = dbContext.Команда.ToList(); 
 
-            // Выполните поиск по всем полям сущности
             var filteredData = data.Where(item =>
                 item.Наименование_команды.ToLower().Contains(searchTerm)
                 ).ToList();

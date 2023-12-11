@@ -131,6 +131,7 @@ namespace WpfApp1
             {
                 return;
             }
+            ResultsDataGrid.ItemsSource = dbContext.Результат_тренировки.Where(u => u.Перенесено == false).ToList();
         }
 
         private void NumericTextBox_OnPreviewTextInput(object sender, System.Windows.Input.TextCompositionEventArgs e)

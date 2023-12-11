@@ -96,7 +96,7 @@ namespace WpfApp1.Windows
 
                         // Обновляем DataGrid
                         SportsmenDataGrid.ItemsSource = null;
-                        SportsmenDataGrid.ItemsSource = dbContext.Тагер.ToList();
+                        SportsmenDataGrid.ItemsSource = dbContext.Cпортсмен.ToList();
                     }
                     catch (Exception ex)
                     {
@@ -131,23 +131,23 @@ namespace WpfApp1.Windows
                 return;
             }
         }
-
-
+        private void SnapBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            window.Show();
+            this.Close();
+        }
 
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string searchTerm = SearchTextBox.Text.ToLower(); // Преобразуйте введенный текст в нижний регистр для регистронезависимого поиска
+            string searchTerm = SearchTextBox.Text.ToLower(); 
+            var data = dbContext.Cпортсмен.ToList();
 
-            // Получите данные из вашей EDM модели
-            var data = dbContext.Cпортсмен.ToList(); // Замените YourEntity на реальное имя вашей сущности
-
-            // Выполните поиск по всем полям сущности
             var filteredData = data.Where(item =>
                 item.Фамилия.ToLower().Contains(searchTerm) ||
                 item.Телефон.ToString().Contains(searchTerm)
                 ).ToList();
 
-            // Обновите ItemsSource вашего DataGrid
             SportsmenDataGrid.ItemsSource = filteredData;
         }
     }

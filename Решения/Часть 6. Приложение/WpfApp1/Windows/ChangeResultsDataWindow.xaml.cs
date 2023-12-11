@@ -24,6 +24,7 @@ namespace WpfApp1.Windows
         {
             InitializeComponent();
             dbContext = GarnizonEntities.GetContext();
+            ResultsDataGrid.ItemsSource = dbContext.Результат_тренировки.ToList();
         }
 
         private void AddResultButton_Click(object sender, RoutedEventArgs e)
@@ -139,6 +140,8 @@ namespace WpfApp1.Windows
             {
                 return;
             }
+            ResultsDataGrid.ItemsSource = null;
+            ResultsDataGrid.ItemsSource = dbContext.Результат_тренировки.ToList();
         }
     }
 }

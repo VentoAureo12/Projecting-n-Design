@@ -54,7 +54,7 @@ namespace WpfApp1
 
             if (string.IsNullOrEmpty(TrainingIDTextBox.Text))
             {
-                MessageBox.Show("Значение поля ID результата оказалось пустым");
+                MessageBox.Show("Значение поля ID тренировки оказалось пустым");
                 return;
             }
 
@@ -66,7 +66,7 @@ namespace WpfApp1
 
             if (sportsman == null)
             {
-                Console.WriteLine("Спортсмен не найден");
+                MessageBox.Show("Спортсмен не найден");
                 return;
             }
 
@@ -76,7 +76,7 @@ namespace WpfApp1
 
             if (results.Count == 0)
             {
-                Console.WriteLine("Результаты тренировки не найдены");
+                MessageBox.Show("Результаты тренировки не найдены");
                 return;
             }
 
@@ -121,11 +121,11 @@ namespace WpfApp1
                 {
                     // Сохранение документа по указанному пути
                     File.Copy(tempFilePath, filePath, true);
-                    Console.WriteLine("Отчёт успешно создан и сохранен.");
+                    MessageBox.Show("Отчёт успешно создан и сохранен.");
                 }
                 else
                 {
-                    Console.WriteLine("Создание отчёта отменено.");
+                    MessageBox.Show("Создание отчёта отменено.");
                 }
             }
             File.Delete(tempFilePath);
